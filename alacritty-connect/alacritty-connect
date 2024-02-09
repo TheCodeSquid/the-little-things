@@ -1,5 +1,5 @@
 #!/usr/bin/fish
 
-if not alacritty msg create-window
+if not alacritty msg create-window 2> /dev/null
     exec alacritty
 end
